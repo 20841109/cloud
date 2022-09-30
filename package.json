@@ -1,0 +1,26 @@
+{
+  "name": "lab-11",
+  "version": "1.0.0",
+  "description": "CI CD test case",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadhinugraha/ci_cd_lab.git"
+  },
+  "author": "Kiki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kadhinugraha/ci_cd_lab/issues"
+  },
+  "homepage": "https://github.com/kadhinugraha/ci_cd_lab#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.4"
+  }
+}
